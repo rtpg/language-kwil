@@ -1,0 +1,46 @@
+'scopeName': 'source.Kwil'
+'name': 'Kwil'
+'fileTypes': ['kwil']
+
+'patterns': [
+  {
+    'match': '\\b(data|if|then|else|case|of|otherwise)\\b',
+    'name': 'keyword.kwil'
+  },
+  # {
+  #   'match':'[\;\=\|]',
+  #   'name': 'symbol.kwil'
+  # },
+  # {
+  #   'match': '[\\]',
+  #   'name': 'lambda.kwil',
+  # },
+  {
+    'match': '->',
+    'name': 'arrow.kwil',
+  },
+  # {
+  #   'match': '[a-zA-Z]+',
+  #   'name': 'name.kwil'
+  # },
+  {
+    'match': '\\\\',
+    'name': 'lambda.kwil',
+  }
+  {
+    'match': '\\|',
+    'name': 'pipe.kwil'
+  },
+  {
+    'match': '[\\{\\}]',
+    'name': 'bracket.kwil'
+  },
+  {
+    'match': '[\\(\\)]',
+    'name': 'paren.kwil'
+  },
+  {
+    'match': '=',
+    'name': 'equal.kwil'
+  }
+]

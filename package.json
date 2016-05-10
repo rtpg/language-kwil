@@ -1,0 +1,17 @@
+{
+  "name": "language-kwil",
+  "version": "0.0.1",
+  "description": "Kwil language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rtpg/language-kwil.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JeremyHeleine/language-mylanguage/issues"
+  },
+  "license": "MIT"
+}
